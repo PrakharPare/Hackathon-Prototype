@@ -1,0 +1,28 @@
+body {
+  background: url('purple.webp');
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 10px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+section {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #4CAF50;
+}
